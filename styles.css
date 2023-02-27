@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background: #FFDC40;
+    border: none;
+    height: 28px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+main {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    width: 336px;
+
+}
+
+.add {
+    background-color: #833AE0;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 71px;
+    width: 150px;
+    height: 42px;
+    padding: 0;
+    display: flex;
+    margin: 18px 94px 19px 92px;
+    align-items: center;
+    text-align: center;
+}
+
+.plus {
+    background-color: #9953F1;
+    width: 42px;
+    height: 42px;
+    border-radius: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.card {
+    width: 286px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-left: 27px;
+    overflow: hidden;
+    max-height: 202px;
+    overflow-y: auto;
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.input {
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 27px;
+}
+
+.todo {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 27px;
+}
+
+.sort {
+    background-color: white;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 11px;
+    margin-left: 281px;
+}
+
+
+.sort-icon {
+    background-image: url('Group\ 38.svg');
+    width: 25px;
+    height: 15px;   
+}
+.sort-icon:hover {
+    background-image: url('Group\ 34.svg');
+}
+.sort-icon--reverse {
+    background-image: url('Group\ 90.svg');
+}
+.sort-icon--reverse:hover {
+    background-image: url('Group\ 91.svg');
+}
+
+
+
+.universal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove,
+.clear {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 10px;
+    right: 30px;
+    background-image: url('Group\ 56.svg');
+    border-radius: 50%;
+}
+
+.remove:hover,
+.clear:hover {
+    background-image: url('Group\ 70.svg');
+}
+.todo-container,
+.input-container {
+    position: relative;
+}
